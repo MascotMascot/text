@@ -1,0 +1,871 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>基于jquery地图特效全国网点查看代码</title>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="m_map" style="margin-right: 140px;">
+	   <h1 style="margin-left: -350px;">全国留学培训机构中心</h1>
+        <div class="mp mp1">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：乌鲁木齐央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito find_mi1">
+                乌鲁木齐</div>
+        </div>
+        <div class="mp mp2">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：西宁市未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                西宁</div>
+        </div>
+        <div class="mp mp3">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：成都未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                成都</div>
+        </div>
+        <div class="mp mp4">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：重庆未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                重庆</div>
+        </div>
+        <div class="mp mp5">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：贵阳未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                贵阳</div>
+        </div>
+        <div class="mp mp6">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：南宁未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                南宁</div>
+        </div>
+        <div class="mp mp7">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：昆明未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                昆明</div>
+        </div>
+        <div class="mp mp8">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：西安未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                西安</div>
+        </div>
+        <div class="mp mp9">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：郑州未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                郑州</div>
+        </div>
+        <div class="mp mp10">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：太原未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                太原</div>
+        </div>
+        <div class="mp mp11">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：武汉未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                武汉</div>
+        </div>
+        <div class="mp mp12">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：长沙未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                长沙</div>
+        </div>
+        <div class="mp mp13">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：南昌未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                南昌</div>
+        </div>
+        <div class="mp mp14">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：杭州未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                杭州</div>
+        </div>
+
+        <div class="mp mp15">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：广州未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                广州</div>
+        </div>
+        <div class="mp mp16">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：深圳未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                深圳</div>
+        </div>
+        <div class="mp mp17">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：合肥未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                合肥</div>
+        </div>
+
+        <div class="mp mp18">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：上海未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                上海</div>
+        </div>
+        <div class="mp mp19">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：济南未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                济南</div>
+        </div>
+
+        <div class="mp mp20">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：北京未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                北京</div>
+        </div>
+        <div class="mp mp21">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：天津未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                天津</div>
+        </div>
+        <div class="mp mp22">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：沈阳未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                沈阳</div>
+        </div>
+        <div class="mp mp23">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：长春未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                长春</div>
+        </div>
+        <div class="mp mp24">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：哈尔滨未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito find_mi2">
+                哈尔滨</div>
+        </div>
+		<!--
+        <div class="mp mp25">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：佛山未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                佛山</div>
+        </div>
+     -->
+
+     
+   
+
+        <div class="mp mp26">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：石家庄岛未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito find_mi2">
+                石家庄</div>
+        </div>
+
+   
+
+        <div class="mp mp27">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：福州未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                福州</div>
+        </div>
+   
+          <div class="mp mp28">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：银川未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                银川</div>
+        </div>
+   
+            <div class="mp mp29">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：南京未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                南京</div>
+        </div>
+   
+          <div class="mp mp30">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					   <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：拉萨未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                拉萨</div>
+        </div>
+   
+         <div class="mp mp31">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					  <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：兰州未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                兰州</div>
+        </div>
+       
+	        <div class="mp mp32">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					    <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：呼和浩特未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                呼和浩特</div>
+        </div>
+		
+	    <div class="mp mp33">
+            <div class="feng">
+                <div class="tree">
+                    <div class="sang">
+                    </div>
+                    <div class="boou">
+                        <img src="images/boou.png" alt="" /></div>
+                    <div class="du_size">
+					    <p>
+                          机构名称:  <a style="color:#FFF;" href="">呼和浩特培训基地</a>
+                        </p>
+                        <p>
+                            地址：呼和浩特未央区未央宫街道未央路2号老三届首座大厦11208
+                        </p>
+                        <p>
+                            电话：029-68829598</p>
+						<p>
+                          网址:  <a style="color:#FFF;" href="">www.baidu.com</a>
+                        </p>	
+                    </div>
+                </div>
+            </div>
+            <div class="mito">
+                海口</div>
+        </div>
+     
+     
+  
+    </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".mp").mouseover(function () {
+                $(this).find(".feng").show();
+            }).mouseout(function () {
+                $(this).find(".feng").hide();
+
+            });
+        });
+    </script>
+   
+</body>
+</html>
