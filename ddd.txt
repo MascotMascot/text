@@ -1,0 +1,28 @@
+var countTime = 5; 
+ function controlTime()
+        {
+          setTimeout(controlTime,1000);
+            --countTime;
+			//alert(countTime)
+		 // document.getElementsByClassName("mes").innerHTML = countTime;
+		  document.getElementById("mes").innerHTML = countTime;
+          if(countTime == 0)
+          {   
+		  
+			}
+	}
+controlTime();
+
+var t = 5;  
+//œ‘ æµπ ˝√Î ˝  
+function showTime(){ 
+   setTimeout(showTime,1000);   
+    t -= 1;  
+    document.getElementsByClassName('mes').innerHTML= t;  
+	if(t==0){ 
+
+ 	$(".mes").hide();
+			   }  
+   
+}  
+showTime(); 
