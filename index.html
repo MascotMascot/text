@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+		<title>法国留学讲座-法国留学攻略-法国留学信息-法国留学法语-笨猪讲堂</title>
+		<meta name="keywords" content="法国留学讲座-法国留学攻略-法国留学信息-法国留学法语-笨猪讲堂">
+        <link href="__Home__images/ico.ico" rel="shortcut icon" >
+		<script src="__Home__plugins/index/js/jquery.min.js"></script>
+		<script src="__Home__plugins/index/js/bootstrap.min.js"></script>		
+		<link rel="stylesheet" type="text/css" href="__Home__css/basic.css" />
+		<link href="__Home__/plugins/index/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="__Home__css/basicmin.css" />
+		<link rel="stylesheet" type="text/css" href="__Home__css/common.css" />
+		<link href="__Home__plugins/index/css/app.css" rel="stylesheet">
+		<!-- private style end -->
+		<style type="text/css">
+			.jieshi{width:100%;border:1px solid #f90;background-color:#FFF2CB;padding:10px;text-align:center;}
+			.g-mr20{margin-right:20px;}
+			.g-mt-20{margin-top:-20px;}
+			.g-mt-10{margin-top:-10px;}
+
+			.color-org{color:#f60;font-weight:normal;}	
+			.color-gray{color:#939393;font-weight:normal;}		.newsList{width:350px;padding-right:35px;line-height:23px;height:23px;color:#4a4a4a;font-size:12px;+float:left;}
+			.newsQut{color:#ff4800;line-height:23px;height:23px;margin-right:5px;}
+			.college-box{padding-bottom:40px;}
+			.newsTime{float:right;color:#9f9f9f;}
+			.f-bdr1{border-right:1px solid #dbdbdb;}
+			.lh2{line-height:30px;height:30px;}
+			.contactList li{line-height:24px;height:24px;margin-bottom:5px;}
+			.contactList strong{display:inline-block;+zoom:1;width:80px;text-align:right;color:#c6c6c6;margin-right:10px;}
+			.contactList .u-s{float:left;width:20px;height:24px;vertical-align:middle;}
+			.u-s1{background-position:0 0;}
+			.u-s2{background-position:-40px 5px;}
+			.u-s3{background-position:-80px 0;}
+			.u-s4{background-position:-120px 0;}
+			.u-b7{float:right;width:90px;border:1px solid #02b686;color:#02b686;line-height:30px;height:30px;text-align:center;}
+			.u-b7:hover{background-color:#02b686;color:#fff;}
+			.g-w620{width:620px;}
+		</style>
+	</head>
+<body>
+<include file="Public:index_head" />
+<div class="content g-w1100-min f-cb g-pb25" style=" margin-top:-100px; background-color:#fff;">
+    <div class="g-w1100 g-wrap f-cb">
+        <div class="path">
+            <a href="/">首页</a><cite>&gt;</cite>笨猪讲堂
+        </div>
+        <div class="On-ScreCent f-ovh f-bg1 f-posrl" style="border:1px solid #CCC">
+            <div class="On-screGrend f-cb">
+                <h2 class="On-screItem On-screHover">笨猪讲堂列表</h2>
+            </div>
+            <form style="display:none" class="On-Search" action="{:U('Yy/index')}" method="get">
+                <input class="On-text" placeholder="在检索结果中搜索" type="text" name="title" value="{$_GET['title']}" />
+                <input class="On-btn" type="submit" />
+            </form>
+            <div class="On-screBoxTr">
+                <ul class="On-screCloum f-ovh">
+                    <volist name="lists" id="val">
+                        <li style="padding-bottom:28px;">
+                            <a class="f-fl" href="{:U('Yy/course',array('id'=>$val['id']))}">
+                                <img src="{:jyx_thumb($val['cover'])}" width="208" height="118" />
+                            </a>
+                            <div class="On-screPic f-fl g-ml20" style="position:relative; height:118px;">
+                                <h4 class="On-screTitle" style="">
+                                    <a href="{:U('Yy/course',array('id'=>$val['id']))}">
+                                        {$val['title']}{$val['teachername']}
+                                    </a></h4>
+                                  <div class="On-screTr" style="position:absolute; left:0; bottom:0;">
+                                <p style="font-size:14px;">内容简介</p>
+                                    <p style="width:850px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;"><!--yy在线频道：{$val['channel']}-->
+                                    {$val['tips']}                                 
+                                    
+                                    
+                                    </p>
+                                   
+                                </div>
+                            </div>
+                            <p class="On-screTink"></p>
+                        </li>
+                    </volist>
+                </ul>
+                <div class="page f-ovh f-tac g-pt10 g-pb40">
+                    {$page}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public:index_footer" />
